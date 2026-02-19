@@ -1,0 +1,17 @@
+# Ignorar carpeta de entorno virtual
+venv/
+.env
+
+# Ignorar archivos compilados de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos de sistema y VS Code
+.DS_Store
+.vscode/
+
+# Ignorar PDFs de prueba (para no subir tus documentos privados)
+*.pdf
+
+# Ignorar claves si las guardaste en un archivo txt
+api_key.txt
